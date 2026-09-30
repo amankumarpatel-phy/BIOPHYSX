@@ -31,6 +31,12 @@ public class WaveformView extends View {
         invalidate();
     }
 
+    public void clear() {
+        samples.clear();
+        for (int i = 0; i < 220; i++) samples.add(0.5f);
+        invalidate();
+    }
+
     @Override protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         float w=getWidth(), h=getHeight(), mid=h*0.55f;
