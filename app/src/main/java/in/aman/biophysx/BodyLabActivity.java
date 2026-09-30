@@ -39,7 +39,8 @@ public class BodyLabActivity extends Activity implements BleManager.Listener, Se
     private Sensor accel;
     private BodyLabVisualizerView visualizer;
     private WaveformView waveform;
-    private TextView status, pulse, temp, breath, motion, quality, scienceHint;
+    private TextView status, quality, scienceHint;
+    private LinearLayout pulse, temp, breath, motion;
     private boolean science = false;
     private double lastBpm = Double.NaN;
     private double lastTemp = Double.NaN;
