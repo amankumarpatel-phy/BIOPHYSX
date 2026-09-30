@@ -1,0 +1,12 @@
+<resources>
+    <color name="bg">#F7FBFF</color>
+    <color name="ink">#17324D</color>
+    <color name="muted">#5E7285</color>
+    <color name="accent">#2C7BE5</color>
+    <color name="accent_soft">#EAF4FF</color>
+    <color name="mint">#E8FBF3</color>
+    <color name="lavender">#F1EDFF</color>
+    <color name="peach">#FFF1EA</color>
+    <color name="line">#DCE7F1</color>
+    <color name="white">#FFFFFF</color>
+</resources>
